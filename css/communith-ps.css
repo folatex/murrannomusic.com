@@ -1,0 +1,219 @@
+
+
+
+
+
+body{
+    background-color:#212121 ;
+    padding: 0%;
+    margin: 0%;
+     font-family: Arial, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Moderustic", sans-serif;
+}
+
+
+
+/* Menu Styles */
+.menu {
+    list-style: none;
+    background-color: #000000; /* Menu background color */
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+    padding: 3px 15px 10px 15px;
+    color: #fff; /* Menu text color */
+    text-align: center;
+    text-decoration: none; 
+    font-size: 15px;/* Remove underline from text */
+    padding-bottom: 20px;
+    
+}
+.menu-item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all .4s;
+
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #373737; /* Dropdown background color */
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    color: #fff; /* Dropdown text color */
+    text-decoration: none; /* Remove underline from text */
+}
+
+/* Show dropdown on hover */
+.menu-item:hover .dropdown {
+    display: block;
+}
+.menu-item a:hover{
+    color: rgb(181, 54, 177);
+}
+
+/* Change menu item color when hovering over the dropdown items */
+#services a:hover {
+    color: rgb(181, 54, 177); /* Change the text color of the menu item when hovered */
+}
+
+#services:hover .dropdown-item a:hover {
+    color: rgb(181, 54, 177); /* Background color for dropdown item on hover */
+}
+#About a:hover {
+    color: rgb(181, 54, 177); /* Change the text color of the menu item when hovered */
+}
+
+#About:hover .dropdown-item a:hover {
+    color: rgb(181, 54, 177); /* Background color for dropdown item on hover */
+}
+
+/* Ensure text color stays consistent when hovering over dropdown items */
+#services:hover .menu-link{
+    color: rgb(181, 54, 177); /* Text color for dropdown items */
+}
+#About:hover .menu-link{
+    color: rgb(181, 54, 177); /* Text color for dropdown items */
+}
+.menu-logo{
+    display: inline-block;
+    margin: 10px 9% 3px 20%;
+
+    position: relative;
+}
+.menu-logo img{
+height: 45px;
+}
+.menu-item a span{
+   transform: translateY(5px);
+}
+#service-page{
+    color: rgb(181, 54, 177);;
+}
+#dropdown{
+ transform: translateY(30px);
+ box-shadow: 8px 9px 15px red;
+ 
+}
+
+#footer{
+    border-top: 0.01mm solid #888;
+    overflow: auto;
+    margin-top: 120px;
+  box-sizing: border-box;
+padding-bottom: 90px;
+clear: both;
+}
+#all0{
+float: left;
+display: flex;
+padding-right: 10px;
+color: #ffffff;
+padding-top: 15px;
+}
+.all0{
+  
+    float: left;
+    width: 22%;
+    padding-top: 32px;
+    margin-left: 18%;
+}
+#logo0{
+  
+    float: left;
+width: 10%;
+justify-content: center;
+align-items: center;
+margin-left: 9%;
+
+}
+#logo0 img{
+    height: 120px;
+    width: 120px;
+    padding-top: 30px;
+}
+#copyright{
+width: 20%;
+
+display: inline-block;
+text-align: center;
+padding-top: 47px;
+color: #ffffff;
+font-size: 22px;
+}
+
+.listen{
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+#listen p{
+    text-align: center;
+    color: #fff;
+    transform: translateY(1060px);
+    font-size: 42px;
+    letter-spacing: 7px;
+}
+#four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+#play-1{
+    width: 15%;
+    position: relative;
+
+}
+#play-1 img{
+    width: 100%;
+    height: 250px;
+ 
+    margin-top: 0;
+    display: block;
+}
+#play-1 p{
+    color: #cac6be;
+}
+#head{
+    padding: 20px 0px;
+}
+#body{
+    font-size: 13px;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+#linnk{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+ 
+
+}
+#linnk div{
+    margin-top: 20px;
+    border: 1px solid transparent;
+    background-color: rgb(181, 54, 177);
+    border-radius: 5px;
+    padding: 8px 5px;
+    letter-spacing: 3px;
+    display: inline;
+}

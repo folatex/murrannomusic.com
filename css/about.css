@@ -1,0 +1,233 @@
+
+
+
+
+
+body{
+    background-color:#212121 ;
+    padding: 0%;
+    margin: 0%;
+     font-family: Arial, sans-serif;
+     color: #B0A99C;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Moderustic", sans-serif;
+}
+
+
+
+/* Menu Styles */
+.menu {
+    list-style: none;
+    background-color: #000000; /* Menu background color */
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+    padding: 3px 15px 10px 15px;
+    color: #fff; /* Menu text color */
+    text-align: center;
+    text-decoration: none; 
+    font-size: 15px;/* Remove underline from text */
+    padding-bottom: 20px;
+    
+}
+.menu-item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all .4s;
+
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #373737; /* Dropdown background color */
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    color: #fff; /* Dropdown text color */
+    text-decoration: none; /* Remove underline from text */
+}
+
+/* Show dropdown on hover */
+.menu-item:hover .dropdown {
+    display: block;
+}
+.menu-item a:hover{
+    color: rgb(181, 54, 177);
+}
+
+/* Change menu item color when hovering over the dropdown items */
+#services a:hover {
+    color: rgb(181, 54, 177); /* Change the text color of the menu item when hovered */
+}
+
+#services:hover .dropdown-item a:hover {
+    color: rgb(181, 54, 177); /* Background color for dropdown item on hover */
+}
+#About a:hover {
+    color: rgb(181, 54, 177); /* Change the text color of the menu item when hovered */
+}
+
+#About:hover .dropdown-item a:hover {
+    color: rgb(181, 54, 177); /* Background color for dropdown item on hover */
+}
+
+/* Ensure text color stays consistent when hovering over dropdown items */
+#services:hover .menu-link{
+    color: rgb(181, 54, 177); /* Text color for dropdown items */
+}
+#About:hover .menu-link{
+    color: rgb(181, 54, 177); /* Text color for dropdown items */
+}
+.menu-logo{
+    display: inline-block;
+    margin: 10px 9% 3px 20%;
+
+    position: relative;
+}
+.menu-logo img{
+height: 45px;
+}
+.menu-item a span{
+   transform: translateY(5px);
+}
+#about-page{
+    color: rgb(181, 54, 177);;
+}
+#dropdown{
+ transform: translateY(30px);
+ box-shadow: 8px 9px 15px red;
+ 
+}
+
+#footer{
+    border-top: 0.01mm solid #888;
+    overflow: auto;
+    margin-top: 120px;
+  box-sizing: border-box;
+padding-bottom: 90px;
+clear: both;
+}
+#all0{
+float: left;
+display: flex;
+padding-right: 10px;
+color: #ffffff;
+padding-top: 15px;
+}
+.all0{
+  
+    float: left;
+    width: 22%;
+    padding-top: 32px;
+    margin-left: 18%;
+}
+#logo0{
+  
+    float: left;
+width: 10%;
+justify-content: center;
+align-items: center;
+margin-left: 9%;
+
+}
+#logo0 img{
+    height: 120px;
+    width: 120px;
+    padding-top: 30px;
+}
+#copyright{
+width: 20%;
+
+display: inline-block;
+text-align: center;
+padding-top: 47px;
+color: #ffffff;
+font-size: 22px;
+}
+
+.hero{
+height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+#word{
+    text-align: center;
+    transform: translateY(1180px);
+    font-size: 35px;
+    letter-spacing: 9px;
+    word-spacing: 12px;
+    color: rgb(181, 54, 128);
+    
+}
+.aal{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ gap: 4%;
+ margin-top: 100px;
+    
+}
+.img img{
+    border-radius: 40px;
+width: 100%;
+
+}
+.img{
+    width: 30%;
+}
+.container div{
+ display: inline-block;
+ width : 30%;
+
+}
+.mission{
+    width: 30%;
+}
+.head{
+    font-size: 30px;
+
+    color: #fff;
+    word-spacing: 33px;
+    padding-bottom: 20px;
+}
+.body{
+    padding-top: 10px;
+    padding-right: 40px;
+    line-height: 34px;
+
+
+}
+.alls{
+    padding: 30px 19%;
+}
+p{
+    padding-bottom: 30px;
+    font-size: 13px;
+    word-spacing: 3px;
+    padding-top: 3px;
+    line-height: 33px;
+}
+h4{
+    font-weight: 400;
+}
