@@ -1,0 +1,324 @@
+
+
+
+
+
+body{
+    background-color:#2e2e2e ;
+    padding: 0%;
+    margin: 0%;
+
+     color:#B0A99C ;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Moderustic", sans-serif;
+}
+
+
+
+/* Menu Styles */
+.menu {
+    list-style: none;
+    background-color: #000000; /* Menu background color */
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+    padding: 3px 15px 10px 15px;
+    color: #fff; /* Menu text color */
+    text-align: center;
+    text-decoration: none; 
+    font-size: 15px;/* Remove underline from text */
+    padding-bottom: 20px;
+    
+}
+.menu-item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all .4s;
+
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #373737; /* Dropdown background color */
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    color: #fff; /* Dropdown text color */
+    text-decoration: none; /* Remove underline from text */
+}
+
+/* Show dropdown on hover */
+.menu-item:hover .dropdown {
+    display: block;
+}
+.menu-item a:hover{
+    color: rgb(181, 54, 177);
+}
+
+/* Change menu item color when hovering over the dropdown items */
+#services a:hover {
+    color: rgb(181, 54, 177); /* Change the text color of the menu item when hovered */
+}
+
+#services:hover .dropdown-item a:hover {
+    color: rgb(181, 54, 177); /* Background color for dropdown item on hover */
+}
+#About a:hover {
+    color: rgb(181, 54, 177); /* Change the text color of the menu item when hovered */
+}
+
+#About:hover .dropdown-item a:hover {
+    color: rgb(181, 54, 177); /* Background color for dropdown item on hover */
+}
+
+/* Ensure text color stays consistent when hovering over dropdown items */
+#services:hover .menu-link{
+    color: rgb(181, 54, 177); /* Text color for dropdown items */
+}
+#About:hover .menu-link{
+    color: rgb(181, 54, 177); /* Text color for dropdown items */
+}
+.menu-logo{
+    display: inline-block;
+    margin: 10px 9% 3px 20%;
+
+    position: relative;
+}
+.menu-logo img{
+height: 45px;
+}
+.menu-item a span{
+   transform: translateY(5px);
+}
+#service-page{
+    color: rgb(181, 54, 177);;
+}
+#dropdown{
+ transform: translateY(30px);
+ box-shadow: 8px 9px 15px red;
+ 
+}
+
+#footer{
+    border-top: 0.01mm solid #888;
+    overflow: auto;
+    margin-top: 120px;
+  box-sizing: border-box;
+padding-bottom: 90px;
+clear: both;
+}
+#all0{
+float: left;
+display: flex;
+padding-right: 10px;
+color: #ffffff;
+padding-top: 15px;
+}
+.all0{
+  
+    float: left;
+    width: 22%;
+    padding-top: 32px;
+    margin-left: 18%;
+}
+#logo0{
+  
+    float: left;
+width: 10%;
+justify-content: center;
+align-items: center;
+margin-left: 9%;
+
+}
+#logo0 img{
+    height: 120px;
+    width: 120px;
+    padding-top: 30px;
+}
+#copyright{
+width: 20%;
+
+display: inline-block;
+text-align: center;
+padding-top: 47px;
+color: #ffffff;
+font-size: 22px;
+}
+
+#float{
+
+    width: 900px;
+    
+    border-left: 1px solid #888;
+
+    padding: 2px 0px 0px 50px;
+}
+#mcs{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seearch{
+ 
+    padding:0px 50px 0px 0px  ;
+    width: 290px;
+}
+#seech{
+    
+    width: 100%;
+    max-width: 100%;
+    right: -100px;
+    height: 50px;
+    background-color: transparent;
+    border:1px dotted  #888;
+}
+input::placeholder{
+    color: #B0A99C;
+
+    font-size: 20px;
+}  
+  #seearch {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #seech {
+    
+    color: #B0A99C;
+    padding-left: 20px;
+ /* add some space between the input field and the icon */
+  }
+  
+  #maa {
+    margin-left: 0; 
+    height: 50px;
+    width: 70px;
+    background-color: rgb(117, 31, 114);
+    display: flex;
+    border: transparent;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+  }
+  #maa i{
+    color: #B0A99C;
+  }
+  #house{
+    text-decoration: none;
+    color: #B0A99C;
+display: inline-block;
+  }
+  .musichead{
+    font-size: 60px;
+  display: block;
+   padding: 50px 0px 0px 20px;
+   color: rgb(224, 101, 220);
+    clear: both;
+  }
+ #heeader{
+    height: fit-content;
+    display: block;
+    
+ }
+ #resullt{
+    
+    padding: 20px 0px 0px 0px;
+    
+ }
+ #inline {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+
+ }
+ #sort{
+    width: 400px;
+ }
+#search-2{
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+gap: 10px;
+ }
+#sot{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border: 1px dotted #B0A99C;
+}
+.arrow{
+    color: rgb(56, 3, 54);
+}
+.drop-sort{
+    background-color: #d5d5d5;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+.drop-sort-link{
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+}
+.drop-sort-link div:hover{
+    background-color: rgb(31, 122, 213);
+    color: #fff;
+}
+#now-sort div{
+    background-color: rgb(31, 122, 213);
+    color: #fff;
+}
+
+.drop-sort.visible{
+    display: block;
+}
+
+#items{
+    width: calc(33.33% - 10px);
+    border: 1px double #ccc;
+}
+#container{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#picx{
+    width: 100%;
+    position: relative;
+}
+#picx a img{
+width: 100%;
+object-fit: cover;
+height: 100%;
+
+}
+#shop i{
+    position: absolute;
+}
+#shop{
+    top:0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2e2e2e;
+    color: rgb(224, 101, 220);
+    position: absolute;
+    z-index: 1;
+}
