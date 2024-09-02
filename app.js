@@ -22,3 +22,13 @@ searchButton.addEventListener('click', () => {
     }
   }
 });
+const shopIcon = document.getElementById('shop');
+const cartIcon = document.getElementById('cart');
+
+shopIcon.addEventListener('mouseover', () => {
+  cartIcon.style.display = 'block';
+});
+
+shopIcon.addEventListener('mouseout', () => {
+  cartIcon.style.display = 'none';
+});
